@@ -1,3 +1,10 @@
+""" 
+This module provides mathematical operations for systems of equations. 
+
+Functions: 
+    generate_cramer: Solve a system of linear equations using Cramer's rule.
+"""
+
 import numpy as np 
 
 def generate_cramer(mat, constant): 
