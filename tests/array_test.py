@@ -1,6 +1,6 @@
-from src.array import generate_array 
-import numpy as np 
-
+import sys 
+print(sys.path)
+from src.arr import generate_array
 def test_generate_array(): 
     array = generate_array((2,3), mean=0, std_dev = 1) 
     assert array.shape == (2,3) 
